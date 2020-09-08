@@ -17,7 +17,7 @@ const writeFileAsync = util.promisify(fs.writeFile)
 
 class First {
     constructor() {
-        this.teamArray = [];
+        this.team = [];
     }
     //determine team size for which questions to render
     async run() {
@@ -32,7 +32,7 @@ class First {
         for (let i = 0; i < teamSize; i++) {
             console.log("======================")
             const response = await inquirer.prompt([
-            
+
                 {
                     type: 'input',
                     name: 'name',
@@ -62,22 +62,22 @@ class First {
                     type: 'input',
                     name: 'github',
                     message: "Enter engineer's Github user name",
-                    when: ({ role })=> role === "Engineer"
+                    when: ({ role }) => role === "Engineer"
                 },
                 {
                     type: 'input',
                     name: 'school',
                     message: "Enter intern's school",
-                    when: ({ role })=> role === "Intern"
+                    when: ({ role }) => role === "Intern"
                 },
                 {
                     type: 'input',
                     name: 'officeNumber',
                     message: "Enter manager's office number",
-                    when: ({ role })=> role === "Manager"
+                    when: ({ role }) => role === "Manager"
                 },
             ]);
-            
+
             const {
                 name,
                 id,
@@ -90,13 +90,13 @@ class First {
 
             //adding each team member to the array
             if (role == 'Engineer') {
-                this.teamArray.push(new Engineer(name, id, email, github))
+                this.team.push(new Engineer(name, id, email, github))
             }
             if (role == 'Manager') {
-                this.teamArray.push(new Manager(name, id, email, officeNumber))
+                this.team.push(new Manager(name, id, email, officeNumber))
             }
             if (role == 'Intern') {
-                this.teamArray.push(new Intern(name, id, email, school))
+                this.team.push(new Intern(name, id, email, school))
             }
         }
         // After the user has input all employees desired, call the `render` function (required
@@ -108,19 +108,19 @@ class First {
         // `output` folder. You can use the variable `outputPath` above target this location.
         // Hint: you may need to check if the `output` folder exists and create it if it
         // does not.
-        const html = render(this.teamArray);
-        fs.writeFile("team.html", html, function(err) {
+        const html = render(this.team);
+        fs.writeFile("team.html", html, function (err) {
 
             if (err) {
-              return console.log(err);
+                return console.log(err);
             }
-          
-            console.log("Success!");
-          
-          });     
+
+            console.log("Great Job!");
+
+        });
     }
 }
 
-const program = new First();
-program.run();
+const app = new First();
+app.run();
 
