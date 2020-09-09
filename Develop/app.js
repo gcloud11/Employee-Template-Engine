@@ -20,12 +20,11 @@ class First {
         this.team = [];
     }
     //determine team size for which questions to render
-    async run() {
+    async go() {
         const { teamSize } = await inquirer.prompt([{
             type: 'input',
             name: 'teamSize',
             message: 'Please input your team size',
-            default: 2,
         }]);
 
         //asking questions about team
@@ -78,15 +77,7 @@ class First {
                 },
             ]);
 
-            const {
-                name,
-                id,
-                email,
-                role,
-                github,
-                school,
-                officeNumber,
-            } = response;
+            const {name, id, email, role, github, school, officeNumber,} = response;
 
             //adding each team member to the array
             if (role == 'Engineer') {
@@ -122,5 +113,5 @@ class First {
 }
 
 const app = new First();
-app.run();
+app.go();
 
