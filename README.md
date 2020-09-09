@@ -24,4 +24,4 @@ Use the node package manager modules: inquirer, jest, fs and util.
 
 <img width="1226" alt="MyTeam" src="https://user-images.githubusercontent.com/67169488/92543582-76387a00-f211-11ea-9ebf-e179e2c7f514.png">
 
-[Check out this application!]https://gcloud11.github.io/Template-Engine/.
+[Check out this application!](https://gcloud11.github.io/Template-Engine/)
