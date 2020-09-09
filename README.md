@@ -6,31 +6,18 @@ This application allows the user to create a web development team with the size 
 ## Installation
 
 ```
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-```
-bash
-pip install foobar
+Use the node package manager modules: inquirer, jest, fs and util.
 ```
 
 ## Usage
 
-```python
-import foobar
+```
+- To use or try this application clone the https link from the git terminal onto desktop.
+- Import repository into VS code
+- Right click into the "Develop" folder, right click and select "open in integrated terminal"
+- Type: node app.js (which is the JavaScript file where the user questions are promted).
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
-
 <img width="1226" alt="MyTeam" src="https://user-images.githubusercontent.com/67169488/92543582-76387a00-f211-11ea-9ebf-e179e2c7f514.png">
->>>>>>> 4885bf2407a70504e1df80c82fa5ce8ac445a2ed
+
