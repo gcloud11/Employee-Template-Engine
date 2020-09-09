@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Unit 10 OOP Homework: Template Engine - Employee Summary
 
 One of the most important aspects of programming is writing code that is readable, reliable, and maintainable. Oftentimes, *how* we design our code is just as important as the code itself. In this homework assignment, your challenge is to build a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person. Since testing is a key piece in making code maintainable, you will also be ensuring that all unit tests pass.
@@ -173,3 +174,40 @@ You are required to submit the following:
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+=======
+# MyTeam
+
+```
+This application allows the user to create a web development team with the size of your choice. This team can include a Manager, Engineer and an Intern.
+```
+## Installation
+
+```
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+```
+bash
+pip install foobar
+```
+
+## Usage
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+<img width="1226" alt="MyTeam" src="https://user-images.githubusercontent.com/67169488/92543582-76387a00-f211-11ea-9ebf-e179e2c7f514.png">
+>>>>>>> 4885bf2407a70504e1df80c82fa5ce8ac445a2ed
