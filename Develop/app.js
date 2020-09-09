@@ -29,7 +29,7 @@ class First {
 
         //asking questions about team
         for (let i = 0; i < teamSize; i++) {
-            console.log("======================")
+            console.log("--------------------------------------------")
             const response = await inquirer.prompt([
 
                 {
@@ -52,9 +52,9 @@ class First {
                     name: 'role',
                     message: "Choose team member's role",
                     choices: [
+                        'Manager',
                         'Engineer',
                         'Intern',
-                        'Manager',
                     ]
                 },
                 {
