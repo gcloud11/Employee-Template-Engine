@@ -19,8 +19,7 @@ Use the node package manager modules: inquirer, jest, fs and util.
 
 ```
 <img width="701" alt="Screen Shot 2020-09-08 at 9 47 15 PM" src="https://user-images.githubusercontent.com/67169488/92548768-7474b380-f21d-11ea-8613-bc71019bc011.png">
-```
 
-```
+
 <img width="1226" alt="MyTeam" src="https://user-images.githubusercontent.com/67169488/92543582-76387a00-f211-11ea-9ebf-e179e2c7f514.png">
 
