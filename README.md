@@ -1,7 +1,7 @@
 # MyTeam
 
 ```
-Foobar is a Python library for dealing with word pluralization.
+This application allows the user to create a web development team with the size of your choice. This team can include a Manager, Engineer and an Intern.
 ```
 ## Installation
 
