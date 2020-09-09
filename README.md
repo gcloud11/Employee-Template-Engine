@@ -29,3 +29,7 @@ Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+<img width="1226" alt="MyTeam" src="https://user-images.githubusercontent.com/67169488/92543582-76387a00-f211-11ea-9ebf-e179e2c7f514.png">
